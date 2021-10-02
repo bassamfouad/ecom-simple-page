@@ -1,0 +1,21 @@
+.category_item {
+}
+
+.category_item_thumbnail {
+  transition: transform 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.category_item_thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.category_item_title {
+  transition: 0.5s all ease-out;
+}
+
+.category_item_thumbnail:hover p {
+  background: rgb(196, 189, 189) !important;
+  color: gray;
+}
